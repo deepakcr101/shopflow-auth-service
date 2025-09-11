@@ -1,0 +1,17 @@
+com\shopflow\authservice\model\User.class
+com\shopflow\authservice\AuthServiceApplication.class
+com\shopflow\authservice\model\Role.class
+com\shopflow\authservice\controller\AuthController.class
+com\shopflow\authservice\security\WebSecurityConfig.class
+com\shopflow\authservice\dto\JwtResponse.class
+com\shopflow\authservice\dto\MessageResponse.class
+com\shopflow\authservice\dto\SignupRequest.class
+com\shopflow\authservice\repository\RoleRepository.class
+com\shopflow\authservice\security\jwt\AuthTokenFilter.class
+com\shopflow\authservice\security\jwt\JwtUtils.class
+com\shopflow\authservice\model\ERole.class
+com\shopflow\authservice\security\jwt\AuthEntryPointJwt.class
+com\shopflow\authservice\repository\UserRepository.class
+com\shopflow\authservice\dto\LoginRequest.class
+com\shopflow\authservice\security\services\UserDetailsServiceImpl.class
+com\shopflow\authservice\security\services\UserDetailsImpl.class
