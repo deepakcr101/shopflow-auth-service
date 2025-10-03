@@ -6,9 +6,11 @@ import com.shopflow.authservice.repository.RoleRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
+@ComponentScan(basePackages = { "com.shopflow.authservice", "com.shopflow.authservice.config" })
 public class AuthServiceApplication {
 
     public static void main(String[] args) {
