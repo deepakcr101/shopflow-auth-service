@@ -1,0 +1,9 @@
+spring.datasource.url=jdbc:postgresql://localhost:5432/shopflow_dev_auth
+spring.datasource.username=dev_user
+spring.datasource.password=dev_pass
+spring.jpa.hibernate.ddl-auto=update
+server.port=8081
+spring.profiles.active=dev
+
+jwt.secret=supersecretjwtkeyforauthdev
+jwt.expirationMs=86400000
